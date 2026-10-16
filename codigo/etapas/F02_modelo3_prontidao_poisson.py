@@ -23,10 +23,10 @@ import pandas as pd, numpy as np, json, pickle
 from sklearn.linear_model import PoissonRegressor
 from sklearn.ensemble import HistGradientBoostingRegressor
 z=np.load('q7mats.npz'); A,QM,PR,RK,BK=[z[k] for k in ['A','QM','PR','RK','BK']]
-NC,D=A.shape; days=pd.date_range('2022-09-01','2026-09-20')
+NC,D=A.shape; days=pd.date_range(INICIO_DADOS,FIM_DADOS)
 cum=lambda M: np.concatenate([np.zeros((NC,1),np.float32),M.cumsum(1)],1)
 cA,cQ,cP,cR=cum(A),cum(QM),cum(PR),cum(RK)
-w=pd.read_pickle('clima.pkl'); w=w.reindex(pd.date_range('2022-08-01','2026-09-30'))
+w=pd.read_pickle('clima.pkl'); w=w.reindex(pd.date_range(INICIO_CLIMA,FIM_CLIMA))
 W=w.loc[days]; Wy=w.shift(1).loc[days]
 start=120  # need some history
 dd=np.arange(start,D)

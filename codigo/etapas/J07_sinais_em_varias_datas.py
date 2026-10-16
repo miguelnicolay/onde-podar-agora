@@ -91,5 +91,5 @@ def at(T,model):
 out={}
 for T,m in [(pd.Timestamp('2024-07-01'),gb_e),(pd.Timestamp('2025-01-01'),gb),(pd.Timestamp('2025-07-01'),gb)]:
     out[str(T.date())]=at(T,m); g=out[str(T.date())]; print(T.date(),'active',g.active.sum(),'base rates', {k:round((g[g.active][k]>0).mean(),3) for k in ['y_queda','y_rq','y_light']})
-now=at(pd.Timestamp('2026-09-21'),gb); out['now']=now
+now=at(HOJE,gb); out['now']=now
 pickle.dump(out,open('pri_feats.pkl','wb'))

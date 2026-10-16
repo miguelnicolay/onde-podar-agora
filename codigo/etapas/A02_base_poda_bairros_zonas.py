@@ -22,7 +22,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 
 import pandas as pd, numpy as np
 df=pd.read_pickle('full.pkl'); df['ini']=pd.to_datetime(df.data_inicio); df['fim']=pd.to_datetime(df.data_fim,errors='coerce')
-END=pd.Timestamp('2026-09-20'); df['dur']=((df.fim.fillna(END))-df.ini).dt.days
+END=FIM_DADOS; df['dur']=((df.fim.fillna(END))-df.ini).dt.days
 S=pd.read_csv(SETOR)
 ra=S.groupby('codbairro').regiao_adm.first(); bn=S.groupby('codbairro').bairro.first()
 s2=S.set_index('cd_setor')

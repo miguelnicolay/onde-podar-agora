@@ -20,7 +20,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 import pandas as pd, numpy as np, pickle, json
 P=pickle.load(open('q7_pred.pkl','rb')); p=P['pred']['+ clima do dia']; pf=P['pred']['Histórico + pedidos recentes']
 Yt,dte,cte=P['Yt'],P['dte'],P['cte']
-days=pd.date_range('2022-09-01','2026-09-20'); NC=976
+days=pd.date_range(INICIO_DADOS,FIM_DADOS); NC=976
 d2=pd.read_pickle('cityday2.pkl')
 alert=((d2.rajada_max_2d>=60)|(d2.chuva_media_2d>=15)|(d2.chuva_hora_max_2d>=8))
 cq=d2.quedas

@@ -22,7 +22,7 @@ from sklearn.linear_model import PoissonRegressor
 S=pd.read_csv(SETOR)
 S=S.sort_values('cd_setor').reset_index(drop=True); NS=len(S); sidx={c:i for i,c in enumerate(S.cd_setor)}
 df=pd.read_pickle('full.pkl'); df=df[df.cd_setor.notna()].copy(); df['si']=df.cd_setor.astype('int64').map(sidx); df=df[df.si.notna()]; df['si']=df.si.astype(int)
-df['d']=pd.to_datetime(df.data_inicio).dt.normalize(); days=pd.date_range('2022-09-01','2026-09-20'); D=len(days); df['di']=(df.d-days[0]).dt.days
+df['d']=pd.to_datetime(df.data_inicio).dt.normalize(); days=pd.date_range(INICIO_DADOS,FIM_DADOS); D=len(days); df['di']=(df.d-days[0]).dt.days
 q=(df.subtipo=='Retirada de árvore caída').values
 def mat(m):
     M=np.zeros((NS,D),np.float32); np.add.at(M,(df.si.values[m],df.di.values[m]),1); return M

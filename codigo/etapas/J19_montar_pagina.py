@@ -38,7 +38,8 @@ comparacao = dict(
                cep_q=med(m, 'ceps_quedas'), cep_l=med(m, 'ceps_light')))
 print('por área × por CEP:', comparacao)
 pagina = (modelo.replace('__DATA__', dados).replace('__CELLS__', celulas)
-          .replace('__AREABT__', json.dumps(comparacao, ensure_ascii=False)))
+          .replace('__AREABT__', json.dumps(comparacao, ensure_ascii=False))
+          .replace('set/2022 a set/2026', PERIODO_TEXTO))   # período dos dados (configurável em _comum.py)
 
 # Versão para publicar como artefato (sem <html>/<head>, o publicador acrescenta)
 open(os.path.join(SAIDAS, 'onde_podar_agora_artefato.html'), 'w', encoding='utf-8').write(pagina)

@@ -25,7 +25,7 @@ df['ini']=pd.to_datetime(df.data_inicio); df['d']=df.ini.dt.normalize(); df['fim
 df['cell']=((df.longitude_usada+43.8)*102.5).astype(int)*100+((df.latitude_usada+23.1)*110.6).astype(int)
 Z=pickle.load(open('q2_rows.pkl','rb')); cells=Z['cells']; NC=len(cells); cidx={c:i for i,c in enumerate(cells)}
 df['ci']=df.cell.map(cidx)
-days=pd.date_range('2022-09-01','2026-09-20'); D=len(days); df['di']=(df.d-days[0]).dt.days
+days=pd.date_range(INICIO_DADOS,FIM_DADOS); D=len(days); df['di']=(df.d-days[0]).dt.days
 def mat(m):
     M=np.zeros((NC,D),np.float32); np.add.at(M,(df.ci.values[m],df.di.values[m]),1); return M
 Q=df.subtipo.eq('Retirada de árvore caída').values

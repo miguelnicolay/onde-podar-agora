@@ -205,7 +205,11 @@ df.head()
 
 **Deu "Faltam as partes … dos chamados".** Os 4 CSVs não estão em `dados_entrada/`, ou estão com outro nome. Os nomes precisam terminar em `parte1de4.csv` … `parte4de4.csv`.
 
-**Como atualizo com dados mais novos?** Troque os CSVs em `dados_entrada/` e procure, dentro de `etapas/`, as datas `2026-09-20` (fim dos dados) e `2026-09-21` (o "hoje" do ranking) para trocá-las pela nova data. O clima precisa ser baixado de novo da [API histórica do Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api), mantendo as mesmas colunas, e os pluviômetros com o notebook em `notebooks/`. Depois, refaça o teste dos pesos (J11 a J13): os melhores pesos mudam com o tempo.
+**Como atualizo com dados mais novos?** Troque os CSVs em `dados_entrada/` e rode informando o último dia dos dados:
+```
+python rodar_tudo.py --fim-dados 2026-10-31
+```
+As datas que dependem do fim dos dados (o "hoje" do ranking, o último mês incompleto, o período do clima e o texto "set/2022 a …" do site) ficam todas em `etapas/_comum.py` e são calculadas a partir dessa data. Sem `--fim-dados`, o padrão é 20/09/2026 e os números publicados se repetem. O clima precisa ser baixado de novo da [API histórica do Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api) até o fim do último mês, mantendo as mesmas colunas, e os pluviômetros com o notebook em `notebooks/`. Continuam fixos nas etapas: as datas de corte da validação (jan/2024 a set/2025), os dias usados como exemplo e as datas do fechamento em massa. Os números escritos no texto do site (`pagina/onde_podar_agora_modelo.html`) também não se atualizam sozinhos. Depois, refaça o teste dos pesos (J11 a J13): os melhores pesos mudam com o tempo.
 
 **Por que tem nomes de variáveis em inglês e abreviados?** São os scripts como foram rodados na análise, mexidos o mínimo, para os números baterem exatamente com o que foi publicado. Os cabeçalhos explicam cada um em português.
 

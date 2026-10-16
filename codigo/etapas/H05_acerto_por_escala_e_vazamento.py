@@ -35,7 +35,7 @@ for unit,size in [('100 m',100),('500 m',500),('rua inteira',None)]:
         r={k:float(np.mean([u in yy for u in o[:k]])) for k in [100,300,500,1000]}
         res[f'{unit}|{lag}']=r; print(unit,'corte -',lag,'dias',{k:round(v,3) for k,v in r.items()})
 # how long until status becomes final? share of requests still 'Em Andamento'/'Aberto' by age
-P=pd.read_pickle('P.pkl'); END=pd.Timestamp('2026-09-20'); P['age']=(END-P.ini).dt.days
+P=pd.read_pickle('P.pkl'); END=FIM_DADOS; P['age']=(END-P.ini).dt.days
 b=pd.cut(P.age,[0,30,60,90,180,365,2000]); print(P.groupby(b,observed=True).apply(lambda s: pd.Series({'pend':s.pend.mean(),'andamento':s.status.isin(['Em Andamento','Aberto']).mean()})).round(3))
 # --- Mesmas listas com prazo de 18 meses (escalas de 500 números e rua inteira)
 for unit,size in [('500 m',500),('rua inteira',None)]:
