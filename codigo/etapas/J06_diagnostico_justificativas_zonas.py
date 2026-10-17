@@ -78,7 +78,7 @@ A = df[df.cep.notna()].copy(); A['cep'] = A.cep.astype('int64')
 A['poda'] = A.subtipo.str.contains('Poda'); A['queda'] = A.subtipo.eq('Retirada de árvore caída')
 A['massa'] = (A.status.eq('Fechado com providências') & A.fim.dt.date.astype(str).isin(['2025-10-13', '2025-10-14'])
               & ((A.fim - A.ini).dt.days > 180) & A.poda)
-T, E = pd.Timestamp('2025-10-15'), pd.Timestamp('2026-09-20')
+T, E = pd.Timestamp('2025-10-15'), FIM_DADOS
 h = A[A.ini < T]
 g = pd.DataFrame(index=A.cep.unique())
 g['massa'] = h[h.massa].groupby('cep').size(); g['pend'] = h[h.poda & h.status.eq('Pendente')].groupby('cep').size()

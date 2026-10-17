@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pasta trabalho/
 
 import pandas as pd, numpy as np
-END=pd.Timestamp('2026-09-21')
+END=HOJE
 df=pd.read_pickle('df.pkl'); df=df[df.cep.notna()].copy(); df['cep']=df.cep.astype('int64')
 df['ini']=pd.to_datetime(df.data_inicio); df['age']=(END-df.ini).dt.days
 poda=df.subtipo.str.contains('Poda'); opn=df.status.isin(['Aberto','Em Andamento'])

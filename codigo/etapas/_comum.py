@@ -15,6 +15,23 @@ SETOR = os.path.join(ENTRADA, 'dados_finais_setor_v3_subtipos1a9.csv')   # setor
 CLIMA_OPENMETEO = os.path.join(ENTRADA, 'clima_diario_rio_openmeteo.csv') # clima diário da cidade
 CLIMA_ESTACOES_ZIP = os.path.join(ENTRADA, 'clima_estacoes_rio.zip')      # pluviômetros (Data.Rio / BigQuery)
 
+# Datas da análise. Para atualizar com dados mais novos, troque os CSVs de entrada e rode
+#   python rodar_tudo.py --fim-dados AAAA-MM-DD
+# (ou defina a variável de ambiente PODA_FIM_DADOS). O padrão reproduz os números publicados.
+# As datas de corte da validação (jan/2024 a set/2025) e os dias usados como exemplo
+# continuam fixos nas etapas, porque descrevem testes feitos no passado.
+import pandas as _pd
+INICIO_DADOS = _pd.Timestamp(os.environ.get('PODA_INICIO_DADOS', '2022-09-01'))  # primeiro dia dos chamados
+FIM_DADOS = _pd.Timestamp(os.environ.get('PODA_FIM_DADOS', '2026-09-20'))        # último dia dos chamados
+HOJE = FIM_DADOS + _pd.Timedelta(days=1)                       # o "hoje" do ranking (dia seguinte ao fim dos dados)
+MES_INCOMPLETO = HOJE.to_period('M').start_time                # séries mensais param antes deste dia (último mês incompleto)
+INICIO_CLIMA = (INICIO_DADOS - _pd.offsets.MonthBegin(1)).normalize()  # o clima começa um mês antes dos chamados
+FIM_CLIMA = FIM_DADOS.to_period('M').end_time.normalize()      # o clima vai até o fim do último mês dos dados
+FIM_DADOS_TEXTO = FIM_DADOS.strftime('%d/%m/%Y')               # para textos e páginas
+_MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez']
+PERIODO_TEXTO = (f'{_MESES[INICIO_DADOS.month - 1]}/{INICIO_DADOS.year} a '
+                 f'{_MESES[FIM_DADOS.month - 1]}/{FIM_DADOS.year}')  # ex.: "set/2022 a set/2026"
+
 # Algumas etapas reaproveitam o código de outras (exec). Este mapa liga o nome
 # original do script, usado nesses trechos, ao nome da etapa neste pacote.
 ORIGEM = {
@@ -93,4 +110,5 @@ for _p in (TRABALHO, SAIDAS):
 os.chdir(TRABALHO)
 
 __all__ = ['os', 'RAIZ', 'ETAPAS', 'ENTRADA', 'TRABALHO', 'SAIDAS', 'SETOR', 'CLIMA_OPENMETEO',
-           'CLIMA_ESTACOES_ZIP', 'ORIGEM', 'etapa']
+           'CLIMA_ESTACOES_ZIP', 'ORIGEM', 'etapa', 'INICIO_DADOS', 'FIM_DADOS', 'HOJE',
+           'MES_INCOMPLETO', 'INICIO_CLIMA', 'FIM_CLIMA', 'FIM_DADOS_TEXTO', 'PERIODO_TEXTO']

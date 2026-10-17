@@ -21,7 +21,7 @@ import pandas as pd, numpy as np, json
 P=pd.read_pickle('P.pkl')  # poda requests with pend, ra, bairro
 P=P[P.nome_unidade_organizacional.eq('COMLURB - Companhia Municipal de Limpeza Urbana')]
 P['m']=P.ini.dt.month; P['y']=P.ini.dt.year
-full=P[(P.ini>='2022-10-01')&(P.ini<'2026-09-01')]
+full=P[(P.ini>='2022-10-01')&(P.ini<MES_INCOMPLETO)]
 # seasonality: Light requests per month-of-year (avg over years), and share
 s=full.groupby(['y','m']).agg(n=('id_chamado','size'),l=('pend','sum')).reset_index()
 s=s.groupby('m').agg(n=('n','mean'),l=('l','mean')); s['share']=s.l/s.n

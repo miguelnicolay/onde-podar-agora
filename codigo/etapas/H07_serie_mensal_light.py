@@ -20,7 +20,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 import pandas as pd, numpy as np, json
 df=pd.read_pickle('df.pkl'); P=df[df.subtipo.str.contains('Poda')].copy()
 P['pend']=P.status.eq('Pendente'); P['ouv']=P.nome_unidade_organizacional.eq('Ouvidoria COMLURB')
-m=P[P.ini<'2026-09-01'].groupby(P.ini.dt.to_period('M')).agg(poda=('id_chamado','size'),light=('pend','sum'),ouv=('ouv','sum'),rec=('reclamacoes','sum'))
+m=P[P.ini<MES_INCOMPLETO].groupby(P.ini.dt.to_period('M')).agg(poda=('id_chamado','size'),light=('pend','sum'),ouv=('ouv','sum'),rec=('reclamacoes','sum'))
 m=m[m.index>='2022-10']
 m['taxa']=m.light/m.poda
 print(m.to_string())

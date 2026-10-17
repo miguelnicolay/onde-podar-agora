@@ -19,7 +19,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 
 import pandas as pd, numpy as np, json, pickle
 src=open(etapa('m1.py')).read(); exec(src.split("def label")[0])
-END=pd.Timestamp('2026-09-21')
+END=HOJE
 F=feats(END); gb=pickle.load(open('gb.pkl','rb'))
 c=(F.poda_all+F.risk+F.queda+F.remo+F.rua_poda>0); Fc=F[c].copy()
 Fc['prob']=gb.predict_proba(Fc[list(F.columns)])[:,1]

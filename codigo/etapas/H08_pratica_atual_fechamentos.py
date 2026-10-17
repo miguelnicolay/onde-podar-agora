@@ -20,7 +20,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 
 import pandas as pd, numpy as np
 from sklearn.neighbors import BallTree
-P=pd.read_pickle('P.pkl'); END=pd.Timestamp('2026-09-20')
+P=pd.read_pickle('P.pkl'); END=FIM_DADOS
 P=P[P.nome_unidade_organizacional.eq('COMLURB - Companhia Municipal de Limpeza Urbana')].copy()
 P['dur']=(P.fim-P.ini).dt.days
 served=P[P.status.isin(['Fechado com solução','Fechado com providências'])&P.fim.notna()]

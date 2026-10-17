@@ -20,7 +20,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 
 import pandas as pd, numpy as np, json
 g=pd.read_pickle('cep_rank.pkl')
-END=pd.Timestamp('2026-09-21')
+END=HOJE
 df=pd.read_pickle('df.pkl'); df=df[df.cep.notna()].copy(); df['cep']=df.cep.astype('int64'); df['age']=(END-pd.to_datetime(df.data_inicio)).dt.days
 lp=df[df.subtipo.str.contains('Poda')&df.status.eq('Pendente')].groupby('cep').age.max()
 g['lmax']=lp.reindex(g.index).fillna(0)
@@ -29,7 +29,7 @@ g['zona']=g.ra.map(z).fillna('')
 print(g.zona.value_counts())
 g=g[g.lat.notna()]
 rows=[[f'{c:08d}',r.rua,r.bairro,r.ra.title() if isinstance(r.ra,str) else '',r.zona,round(r.lat,4),round(r.lon,4),int(r.comlurb),int(r.light),int(r.risco12),int(r.queda12),int(r.espera_com),int(r.lmax),round(r.prob,2)] for c,r in g.iterrows()]
-json.dump(dict(cols=['cep','rua','bairro','ra','zona','lat','lon','com','light','risco','queda','esp','lmax','prob'],rows=rows,ate='20/09/2026'),open('rank_data.json','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(dict(cols=['cep','rua','bairro','ra','zona','lat','lon','com','light','risco','queda','esp','lmax','prob'],rows=rows,ate=FIM_DADOS_TEXTO),open('rank_data.json','w'),ensure_ascii=False,separators=(',',':'))
 import os; print(len(rows), os.path.getsize('rank_data.json'))
 # csv export
 out=g.copy(); out.insert(0,'posicao',np.arange(1,len(out)+1))

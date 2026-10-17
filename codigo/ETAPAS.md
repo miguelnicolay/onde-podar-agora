@@ -672,3 +672,14 @@ Insere o ranking (com as áreas), o mapa e a comparação por área × por CEP n
 - **Lê:** rank_data.json, cell_quedas.json, area_bt.json, pagina/onde_podar_agora_modelo.html
 - **Grava:** onde_podar_agora_artefato.html, site/index.html, site/barra.js (barra do topo, copiada de pagina/barra_do_site.js), site/dados/*.csv (saidas)
 - **Usado em:** Página e site.
+
+## Grupo K · Viés de registro entre zonas
+
+### [K01 · Viés de registro por zona: teste de uma nota corrigida](etapas/K01_vies_registro_por_zona.py)
+*exploratório*
+
+Testa, nas 8 datas de corte de J11, uma nota em que os pedidos travados na Light de cada CEP são corrigidos pela taxa de Pendente por queda da sua zona (só com o que se sabia em cada data). Compara com a nota atual no acerto do topo, no acerto só em árvore caída e na parte de cada zona no top 500 em relação às quedas do ano seguinte.
+
+- **Lê:** pri_roll.pkl, P.pkl
+- **Grava:** vies_zona.json
+- **Usado em:** Ainda não usado no site; resultado para discutir com o grupo.

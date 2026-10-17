@@ -48,7 +48,7 @@ cum=J.y.cumsum()/tot; cumtr=J.tr.cumsum(); out={}
 for k in [100,250,500,1000]: out[k]=dict(cov=float(cum.iloc[min(k,len(J))-1]),evit=int(J.y.iloc[:k].sum()),trechos=int(cumtr.iloc[min(k,len(J))-1]))
 out['n_jan']=len(J); out['cov_all']=float(J.y.sum()/tot); out['med_tr']=float(J.tr.mean()); out['k25']=int((cum<0.25).sum()+1); out['k50']=int((cum<0.5).sum()+1) if cum.iloc[-1]>=0.5 else None
 res['Frente de 150 m de raio']=out; print(out)
-END=pd.Timestamp('2026-09-21'); tn=greedy(build(END),150)
+END=HOJE; tn=greedy(build(END),150)
 J=tn.groupby('jan').agg(n=('n','sum'),tr=('n','size'),lat=('lat','mean'),lon=('lon','mean'),bairro=('bairro',lambda s:s.mode().iloc[0] if (s!='').any() else '')).sort_values('n',ascending=False)
 J['rank']=np.arange(1,len(J)+1); tn['jan_rank']=tn.jan.map(J['rank'])
 tn.to_pickle('backlog_now.pkl'); J.to_pickle('janelas_now.pkl')

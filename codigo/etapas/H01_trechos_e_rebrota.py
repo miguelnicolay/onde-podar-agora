@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pasta trabalho/
 
 import pandas as pd, numpy as np
-P=pd.read_pickle('P.pkl'); END=pd.Timestamp('2026-09-20')
+P=pd.read_pickle('P.pkl'); END=FIM_DADOS
 P=P[P.id_logradouro.notna()&(P.numero_logradouro>0)&(P.numero_logradouro<100000)].copy()
 P['tr']=P.id_logradouro.astype('int64').astype(str)+'_'+(P.numero_logradouro//100).astype('int64').astype(str)
 P['lg']=P.id_logradouro.astype('int64')

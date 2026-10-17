@@ -58,7 +58,7 @@ for nm,fn in [('Trecho de 100 m (sem agrupar)',lambda t: t.assign(jan=np.arange(
     res[nm]=out; print(nm,out)
 res['tot2025']=int(tot)
 # current backlog grouping for panel (as of END) using radius 200m
-END=pd.Timestamp('2026-09-21'); tn=cluster_radius(build(END),200)
+END=HOJE; tn=cluster_radius(build(END),200)
 J=tn.groupby('jan').agg(n=('n','sum'),tr=('n','size'),lat=('lat','mean'),lon=('lon','mean'),bairro=('bairro',lambda s:s.mode().iloc[0] if (s!='').any() else '')).sort_values('n',ascending=False)
 J['rank']=np.arange(1,len(J)+1)
 tn['jan_rank']=tn.jan.map(J['rank'])

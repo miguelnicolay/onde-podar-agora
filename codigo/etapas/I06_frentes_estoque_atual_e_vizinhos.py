@@ -24,7 +24,7 @@ exec(open(etapa('janlib.py')).read())
 R=6371000
 out={}
 # 1) shutdown count by strategy, current backlog
-END=pd.Timestamp('2026-09-21'); B=build(END)
+END=HOJE; B=build(END)
 out['pedidos']=int(B.n.sum()); out['trechos']=len(B)
 rad={}
 for r in [50,100,150,300]:

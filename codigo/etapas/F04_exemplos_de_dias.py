@@ -19,7 +19,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 
 import pandas as pd, numpy as np, pickle, json
 P=pickle.load(open('q7_pred.pkl','rb')); p=P['pred']['+ clima do dia']; pf=P['pred']['Histórico + pedidos recentes']
-Yt,dte,cte=P['Yt'],P['dte'],P['cte']; days=pd.date_range('2022-09-01','2026-09-20')
+Yt,dte,cte=P['Yt'],P['dte'],P['cte']; days=pd.date_range(INICIO_DADOS,FIM_DADOS)
 cells=pickle.load(open('q2_rows.pkl','rb'))['cells']
 g=pd.read_pickle('q7_days.pkl'); d2=pd.read_pickle('cityday2.pkl')
 thr=float(np.quantile(p,0.95))

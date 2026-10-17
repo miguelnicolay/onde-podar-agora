@@ -22,7 +22,7 @@ import pandas as pd, numpy as np, pickle
 from sklearn.neighbors import BallTree
 P=pd.read_pickle('P_lag.pkl'); Q=pd.read_pickle('Q.pkl')
 R=6371000.; rad=30
-START=pd.Timestamp('2022-09-01'); END=pd.Timestamp('2026-09-20')
+START=INICIO_DADOS; END=FIM_DADOS
 day=lambda s: s.values.astype('datetime64[s]').astype(np.int64)/86400
 pdd=day(P.ini); pfim=day(P.fim.fillna(pd.Timestamp('2100-01-01'))); qd=day(Q.ini)
 s0=day(pd.Series([START]))[0]; e0=day(pd.Series([END]))[0]

@@ -22,7 +22,7 @@ import pandas as pd, numpy as np
 from sklearn.neighbors import BallTree
 P=pd.read_pickle('P_lag.pkl'); Q=pd.read_pickle('Q.pkl')
 R=6371000.; rad=30
-START=pd.Timestamp('2022-09-01'); END=pd.Timestamp('2026-09-20')
+START=INICIO_DADOS; END=FIM_DADOS
 tq=BallTree(np.radians(Q[['latitude_usada','longitude_usada']].values),metric='haversine')
 ind=tq.query_radius(np.radians(P[['latitude_usada','longitude_usada']].values), rad/R)
 qd=Q.ini.values.astype('datetime64[s]').astype(np.int64)/86400

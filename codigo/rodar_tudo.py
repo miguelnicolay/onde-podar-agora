@@ -6,6 +6,12 @@ Uso:
     python rodar_tudo.py J               # só as etapas do grupo J
     python rodar_tudo.py A01 A02 H03     # etapas específicas
     python rodar_tudo.py --a-partir H01  # da etapa H01 em diante
+    python rodar_tudo.py --fim-dados 2026-10-31        # dados novos: último dia dos chamados
+    python rodar_tudo.py --fim-dados 2026-10-31 J      # (combina com as outras opções)
+    python rodar_tudo.py --entrada dados_entrada_atualizados --fim-dados 2026-10-31
+                                         # usa outra pasta de entrada (ver extracao/)
+
+Sem --fim-dados, usa 20/09/2026 e reproduz os números publicados.
 """
 import os, sys, subprocess, time
 
@@ -78,10 +84,25 @@ ORDEM = [
     "J16_mapa_de_risco",
     "J17_numeros_da_pagina",
     "J18_areas_150m",
-    "J19_montar_pagina"
+    "J19_montar_pagina",
+    "K01_vies_registro_por_zona",   # exploratório; não muda o site
 ]
 
 def main(args):
+    args = list(args)
+    if '--fim-dados' in args:
+        i = args.index('--fim-dados')
+        fim = args[i + 1]
+        import datetime
+        datetime.date.fromisoformat(fim)          # para com erro claro se a data estiver mal escrita
+        os.environ['PODA_FIM_DADOS'] = fim         # lido por etapas/_comum.py em cada etapa
+        del args[i:i + 2]
+        print(f'Fim dos dados: {fim}')
+    if '--entrada' in args:
+        i = args.index('--entrada')
+        os.environ['PODA_ENTRADA'] = os.path.abspath(args[i + 1])   # lido por etapas/_comum.py
+        print(f'Pasta de entrada: {os.environ["PODA_ENTRADA"]}')
+        del args[i:i + 2]
     sel = ORDEM
     if args and args[0] == '--a-partir':
         sel = ORDEM[[e[:3] for e in ORDEM].index(args[1]):]

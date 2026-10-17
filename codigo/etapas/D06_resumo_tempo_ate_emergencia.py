@@ -21,7 +21,7 @@ from _comum import *   # caminhos das pastas e arquivos; passa a trabalhar na pa
 import pandas as pd, numpy as np, pickle, json
 from sklearn.neighbors import BallTree
 P=pd.read_pickle('P_lag.pkl'); Q=pd.read_pickle('Q.pkl')
-R=6371000.; START=pd.Timestamp('2022-09-01')
+R=6371000.; START=INICIO_DADOS
 day=lambda s: s.values.astype('datetime64[s]').astype(np.int64)/86400
 pdd=day(P.ini); pfim=day(P.fim.fillna(pd.Timestamp('2100-01-01'))); qd=day(Q.ini); s0=day(pd.Series([START]))[0]
 indq=BallTree(np.radians(P[['latitude_usada','longitude_usada']].values),metric='haversine').query_radius(np.radians(Q[['latitude_usada','longitude_usada']].values),30/R)
