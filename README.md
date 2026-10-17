@@ -4,7 +4,7 @@ Onde a poda de árvores é mais urgente no Rio, por que, e o que pode acontecer 
 
 Análise exploratória do projeto de extensão *Ciência de Dados para Cidades Inteligentes* (UFRJ). Não é um dado oficial da Prefeitura, da COMLURB nem da Light.
 
-**Colaboradores:** [Heitor Morais](https://github.com/heitor-oss) e [José Salgado](https://github.com/jssppedra-png).
+**Colaboradores:** [Heitor Morais](https://github.com/heitor-oss) , [José Salgado](https://github.com/jssppedra-png) e [Miguel Nicolay](https://github.com/miguelnicolay)
 
 ## O que tem neste repositório
 
