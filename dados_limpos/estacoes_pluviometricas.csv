@@ -1,0 +1,155 @@
+rede,id_estacao,estacao,latitude,longitude,coordenada_valida,primeiro_dia,ultimo_dia,dias_com_dados,dias_total_confiavel
+Alerta Rio,1,Vidigal,-22.9925,-43.23306,True,2022-08-01,2024-12-17,801,724
+Alerta Rio,2,Urca,-22.95583,-43.16667,True,2022-08-01,2024-12-17,801,720
+Alerta Rio,3,Rocinha,-22.98583,-43.245,True,2022-08-01,2024-12-17,818,727
+Alerta Rio,4,Tijuca,-22.93194,-43.22167,True,2022-08-01,2024-12-17,817,710
+Alerta Rio,5,Santa teresa,-22.93167,-43.19639,True,2022-08-01,2024-12-17,801,697
+Alerta Rio,6,Copacabana,-22.98639,-43.18944,True,2022-08-01,2024-12-17,801,722
+Alerta Rio,7,Grajau,-22.92222,-43.2675,True,2022-08-01,2024-12-17,801,721
+Alerta Rio,8,Ilha do governador,-22.81806,-43.21028,True,2022-08-01,2024-12-17,796,707
+Alerta Rio,9,Penha,-22.84444,-43.27528,True,2022-08-01,2024-12-17,801,722
+Alerta Rio,10,Madureira,-22.87333,-43.33889,True,2022-08-01,2024-12-17,801,721
+Alerta Rio,11,Iraja,-22.82694,-43.33694,True,2022-08-01,2024-12-17,818,703
+Alerta Rio,12,Bangu,-22.88028,-43.46583,True,2022-08-01,2024-12-17,801,720
+Alerta Rio,13,Piedade,-22.89182,-43.31005,True,2022-08-01,2024-12-17,801,723
+Alerta Rio,14,Tanque,-22.9125,-43.36472,True,2022-08-01,2024-12-17,801,723
+Alerta Rio,15,Saude,-22.89606,-43.18786,True,2022-08-01,2024-12-17,801,715
+Alerta Rio,16,Jardim botanico,-22.97278,-43.22389,True,2022-08-01,2024-12-17,801,722
+Alerta Rio,17,Barrinha,-23.00849,-43.29965,True,2022-08-01,2024-12-17,801,725
+Alerta Rio,18,Cidade de deus,-22.94556,-43.36278,True,2022-08-01,2024-12-17,802,717
+Alerta Rio,19,Riocentro,-22.97721,-43.39155,True,2022-08-01,2024-12-17,801,725
+Alerta Rio,20,Guaratiba,-23.05028,-43.59472,True,2022-08-01,2024-12-17,801,718
+Alerta Rio,21,Grajau jacarepagua,-22.92556,-43.31583,True,2022-08-01,2024-12-17,801,725
+Alerta Rio,22,Santa cruz,-22.90944,-43.68444,True,2022-08-01,2024-12-17,818,727
+Alerta Rio,23,Grande meier,-22.89056,-43.27806,True,2022-08-01,2024-12-17,801,725
+Alerta Rio,24,Anchieta,-22.82694,-43.40333,True,2022-08-01,2024-12-17,801,719
+Alerta Rio,25,Grota funda,-23.01444,-43.52139,True,2022-08-01,2024-12-17,818,726
+Alerta Rio,26,Campo grande,-22.90361,-43.56194,True,2022-08-01,2024-12-17,801,723
+Alerta Rio,27,Sepetiba,-22.96889,-43.71167,True,2022-08-01,2024-12-17,801,713
+Alerta Rio,28,Alto da boa vista,-22.96583,-43.27833,True,2022-08-01,2024-11-27,743,665
+Alerta Rio,29,Av brasil mendanha,-22.85694,-43.54111,True,2022-08-01,2024-12-17,801,714
+Alerta Rio,30,Recreio,-23.01,-43.44056,True,2022-08-01,2024-12-17,801,694
+Alerta Rio,31,Laranjeiras,-22.94056,-43.1875,True,2022-08-01,2024-12-17,818,729
+Alerta Rio,32,Sao cristovao,-22.89667,-43.22167,True,2022-08-01,2024-12-17,801,721
+Alerta Rio,33,Tijuca muda,-22.93278,-43.24333,True,2022-08-01,2024-12-17,799,719
+Alerta Rio,40,Gericino,,,False,,,0,0
+Alerta Rio,41,Itanhanga,,,False,,,0,0
+Alerta Rio,42,Mendanha,,,False,,,0,0
+Alerta Rio,43,Sumare,,,False,,,0,0
+Cemaden,3042,Abolicao,,,False,,,0,0
+Cemaden,3043,Tanque jacarepagua,-22.918,-43.361,True,2023-12-13,2024-04-09,116,0
+Cemaden,3044,Penha,-22.839,-43.279,True,2023-12-13,2024-04-09,116,0
+Cemaden,3045,Praca seca,-22.896,-43.352,True,2023-12-13,2024-03-13,86,0
+Cemaden,3114,Gloria,-22.915,-43.176,True,2023-12-13,2024-04-09,110,0
+Cemaden,3215,Est. pedra bonita,-22.977861,-43.277444,True,2023-12-13,2024-04-09,107,0
+Cemaden,7591,Jardim maravilha,-22.9592,-43.6082,True,2024-02-08,2024-04-09,62,0
+Cemaden,7592,Santa cruz,-22.8897,-43.7175,True,2024-02-08,2024-04-09,62,0
+Cemaden,7593,Realengo batan,-22.864,-43.425,True,2023-12-13,2024-04-09,116,0
+Cemaden,7594,Padre miguel,-22.8689,-43.4507,True,2023-12-13,2024-04-09,116,0
+Cemaden,7595,Salgueiro,-22.929,-43.228,True,2023-12-13,2024-04-09,116,0
+Cemaden,7596,Andarai,-22.93,-43.25,True,2023-12-13,2024-04-09,116,0
+Cemaden,7597,Ciep samuel wainer,-22.921,-43.227,True,2023-12-13,2024-04-09,116,0
+Cemaden,7599,Vargem pequena,-22.989,-43.433,True,2023-12-13,2024-04-09,116,0
+Cemaden,7600,Jacarepagua,-22.9922,-43.367,True,2023-12-13,2024-04-09,116,0
+Cemaden,7601,Ciep dr. joao ramos de souza,-22.796,-43.203,True,2023-12-13,2024-04-09,116,0
+Cemaden,7602,Sao conrado,-22.995,-43.269,True,2023-12-13,2024-04-09,109,0
+Cemaden,7603,Catete,-22.923,-43.176,True,2023-12-13,2024-04-09,116,0
+Cemaden,7605,Pavuna,-22.8076,-43.3584,True,2023-12-25,2024-02-14,28,0
+Cemaden,7606,Vigario geral,-22.8131,-43.3101,True,2023-12-13,2024-04-09,116,0
+Cemaden,7607,Defesa civil santa cruz,-22.89444,-43.67611,True,,,0,0
+Cemaden,7609,Vicente de carvalho,-22.86086,-43.30756,True,2023-12-13,2024-04-09,116,0
+Cemaden,7610,Alto da boa vista,-22.9666,-43.2965,True,2023-12-13,2024-04-09,116,0
+Cemaden,7611,Tijuca,-22.943,-43.241,True,2023-12-13,2024-04-09,109,0
+Cemaden,7612,Usina,-22.948,-43.258,True,2023-12-13,2024-04-09,116,0
+Cemaden,7613,Higienopolis,-22.869,-43.265,True,2023-12-13,2024-04-09,116,0
+Cemaden,7614,Pilares,-22.875,-43.299,True,2023-12-13,2024-04-09,116,0
+Cemaden,7615,Ilha de paqueta,-22.7613,-43.1084,True,2023-12-13,2024-03-26,42,0
+INEA,1,Campo Grande,-22.919278,-43.543778,True,2024-03-04,2024-04-01,29,27
+INEA,2,Capela Mayrink,-22.956833,-43.2775,True,2024-03-15,2024-03-31,15,12
+INEA,3,Eletrobras,-22.92228,-43.419917,True,2024-03-04,2024-04-01,26,19
+INEA,4,Realengo,-22.866111,-43.423806,True,2024-03-04,2024-03-31,28,27
+INEA,5,Sao Cristovao,-22.91075,-43.22325,True,2024-03-14,2024-04-01,19,17
+INEA,6,Mendanha,-22.864083,-43.544,True,,,0,0
+WebSirene,1,Adeus 1,-22.8636,-43.2636,True,2022-11-25,2024-12-17,739,0
+WebSirene,2,Alemão 1,-22.8547,-43.2725,True,2022-11-25,2024-12-17,738,0
+WebSirene,3,Andaraí 1,-22.9327,-43.2567,True,2022-11-25,2024-12-17,740,0
+WebSirene,4,Baiana 1,-22.8595,-43.2657,True,2022-11-25,2024-12-17,742,0
+WebSirene,5,Barão 1,-22.9023,-43.3434,True,2022-11-25,2024-12-17,740,0
+WebSirene,6,Borel 2,-22.9405,-43.2531,True,2022-11-25,2024-12-17,734,0
+WebSirene,7,Borel 3,-22.9315,-43.2515,True,2022-11-25,2024-12-17,739,0
+WebSirene,8,Cabritos 1,-22.9647,-43.195,True,2022-11-25,2024-12-17,719,0
+WebSirene,9,Cachoeirinha 1,-22.914,-43.2822,True,2022-11-25,2024-12-17,735,0
+WebSirene,10,Cantagalo 1,-22.9808,-43.1969,True,2022-11-25,2024-12-17,725,0
+WebSirene,11,Caracol 1,-22.8443,-43.2905,True,2022-11-25,2024-12-17,743,0
+WebSirene,12,Cariri 1,-22.8483,-43.2805,True,2022-11-25,2024-12-17,742,0
+WebSirene,13,Catumbi 1 ,-22.9214,-43.1967,True,2022-11-25,2024-12-17,739,0
+WebSirene,14,Centro de Operações,-22.9122,-43.2038,True,2022-11-25,2024-12-17,733,0
+WebSirene,15,Chácara do Céu 1,-22.9901,-43.2325,True,2022-11-25,2024-12-17,742,0
+WebSirene,16,Chacrinha 1,-22.9263,-43.2196,True,2022-11-25,2024-12-17,720,0
+WebSirene,17,Chapéu Mangueira 1,-22.9605,-43.1679,True,2022-11-25,2024-12-17,743,0
+WebSirene,18,Comandante Luiz Souto 1,-22.9017,-43.3594,True,2022-11-25,2024-12-17,739,0
+WebSirene,19,Cotia 1,-22.9178,-43.2817,True,2022-11-25,2024-12-17,721,0
+WebSirene,20,Engenho da Rainha 2,-22.8711,-43.2894,True,2022-11-25,2024-12-17,738,0
+WebSirene,21,Escondidinho 1,-22.9324,-43.2012,True,2022-11-25,2024-12-17,738,0
+WebSirene,22,Espírito Santo 1 ,-22.89,-43.3439,True,2022-11-25,2024-12-17,742,0
+WebSirene,23,Fazenda Catete 1 ,-22.925,-43.1825,True,2022-11-25,2024-12-17,741,0
+WebSirene,24,Formiga 1,-22.9423,-43.2432,True,2022-11-25,2024-12-17,740,0
+WebSirene,25,Guaíba 1 / Vila Pequiri,-22.8344,-43.2953,True,2022-11-25,2024-12-17,737,0
+WebSirene,26,Guararapes 1,-22.9447,-43.208,True,2022-11-25,2024-12-17,742,0
+WebSirene,27,Ignácio Dias 1,-22.9164,-43.3422,True,2022-11-25,2024-12-17,723,0
+WebSirene,28,Jamelão 2,-22.9333,-43.2611,True,2022-11-25,2024-12-17,743,0
+WebSirene,29,Jardim do Carmo 1,-22.8514,-43.3045,True,2022-11-25,2024-12-17,738,0
+WebSirene,30,Joaquim de Queiroz 1,-22.8598,-43.2795,True,2022-11-25,2024-12-17,726,0
+WebSirene,31,Julio Otoni 1,-22.9336,-43.1939,True,2022-11-25,2024-12-17,737,0
+WebSirene,32,Juramento 2,-22.8575,-43.313,True,2022-11-25,2024-12-17,739,0
+WebSirene,33,Ladeira dos Tabajaras,-22.9617,-43.188,True,2022-11-25,2024-12-17,740,0
+WebSirene,34,Liberdade 1,-22.9266,-43.218,True,2022-11-25,2024-12-17,689,0
+WebSirene,35,Macacos 1,-22.912,-43.2526,True,2022-11-25,2024-12-17,741,0
+WebSirene,36,Mangueira 1 ,-22.9043,-43.2388,True,2022-11-25,2024-12-17,736,0
+WebSirene,37,Matinha 1,-22.9255,-43.2155,True,2022-11-25,2024-12-17,727,0
+WebSirene,38,Matriz 1,-22.9046,-43.264,True,2022-11-25,2024-12-17,738,0
+WebSirene,39,Mineiros 1,-22.875278,-43.305833,True,2022-11-25,2024-12-17,741,0
+WebSirene,40,Morro da Fé 1 ,-22.8456,-43.2978,True,2022-11-25,2024-12-17,738,0
+WebSirene,41,Morro do Céu 2 / Pretos Forros 1,-22.9135,-43.2942,True,2022-11-25,2024-12-17,743,0
+WebSirene,42,Nossa Senhora da Guia 1,-22.9142,-43.2852,True,2022-11-25,2024-12-17,731,0
+WebSirene,43,Nova Brasilia 1,-22.8645,-43.2756,True,2022-11-25,2024-12-17,743,0
+WebSirene,44,Nova Divinéia 1,-22.9295,-43.2654,True,2022-11-25,2024-12-17,741,0
+WebSirene,45,Ocidental Fallet 1 ,-22.9262,-43.1918,True,2022-11-25,2024-12-17,733,0
+WebSirene,46,Ouro Preto 2 ,-22.9166,-43.2979,True,2022-11-25,2024-12-17,736,0
+WebSirene,47,Palmeiras 2,-22.8641,-43.283,True,2022-11-25,2024-12-17,728,0
+WebSirene,48,Parque Alvorada 2,-22.8652,-43.2805,True,2022-11-25,2024-12-17,740,0
+WebSirene,49,Parque Candelária 1,-22.9056,-43.2341,True,2022-11-25,2024-12-17,735,0
+WebSirene,50,Parque João Paulo II 1,-22.9291,-43.2623,True,2022-11-25,2024-12-17,740,0
+WebSirene,51,Parque Nova Maracá 1,-22.8606,-43.3027,True,2022-11-25,2024-12-17,742,0
+WebSirene,52,Parque Silva Vale 3,-22.8683,-43.3133,True,2022-11-25,2024-12-17,732,0
+WebSirene,53,Parque Vila Isabel 2,-22.9159,-43.2591,True,2022-11-25,2024-12-17,741,0
+WebSirene,54,Pavão-Pavãozinho 2,-22.9797,-43.1914,True,2022-11-25,2024-12-17,737,0
+WebSirene,55,Piancó 2 ,-22.8651,-43.2586,True,2022-11-25,2024-12-17,737,0
+WebSirene,56,Prazeres 1,-22.934,-43.2032,True,2022-11-25,2024-12-17,740,0
+WebSirene,57,Relicário 1,-22.86,-43.2864,True,2022-11-25,2024-12-17,741,0
+WebSirene,58,Rio das Pedras 2,-22.9717,-43.3319,True,2022-11-25,2024-12-17,738,0
+WebSirene,59,Rocinha 1,-22.9896,-43.2519,True,2022-11-25,2024-12-17,734,0
+WebSirene,60,Rocinha 4,-22.9899,-43.2471,True,2022-11-25,2024-12-17,736,0
+WebSirene,61,Rocinha 8,-22.9841,-43.2488,True,2022-11-25,2024-12-17,733,0
+WebSirene,62,Rua Brício de Moraes 1,-22.8633,-43.3111,True,2022-11-25,2024-12-17,720,0
+WebSirene,63,Rua Quiririm 2 ,-22.8886,-43.3569,True,2022-11-25,2024-12-17,741,0
+WebSirene,64,Salgueiro 1,-22.9302,-43.226,True,2022-11-25,2024-12-17,732,0
+WebSirene,65,Santa Alexandrina 1 / Paula Ramos,-22.9357,-43.2127,True,2022-11-25,2024-12-17,741,0
+WebSirene,66,Santa Marta 1,-22.9478,-43.1936,True,2022-11-25,2024-12-17,737,0
+WebSirene,67,Santos Rodrigues 2 / Azevedo Lima 1,-22.9226,-43.2035,True,2022-11-25,2024-12-17,735,0
+WebSirene,68,São Carlos 1 ,-22.9181,-43.2008,True,2022-11-25,2024-12-17,738,0
+WebSirene,69,São João 2,-22.908,-43.2667,True,2022-11-25,2024-12-17,739,0
+WebSirene,70,São João 4,-22.9119,-43.2635,True,2022-11-25,2024-12-17,739,0
+WebSirene,71,São Miguel Arcanjo 1,-22.8606,-43.3317,True,2022-11-25,2024-12-17,737,0
+WebSirene,72,Sapê 1,-22.8575,-43.333,True,2022-11-25,2024-12-17,740,0
+WebSirene,73,Sereno 1,-22.8414,-43.2933,True,2022-11-25,2024-12-17,727,0
+WebSirene,74,Sítio Pai João 1,-22.9911,-43.3114,True,2022-11-25,2024-12-17,736,0
+WebSirene,75,Sumaré 1,-22.9313,-43.2169,True,2022-11-25,2024-12-17,743,0
+WebSirene,76,Tuiuti 2 / Telégrafos,-22.8985,-43.2347,True,2022-11-25,2024-12-17,739,0
+WebSirene,77,Unidos de Santa Tereza 3,-22.9269,-43.1994,True,2022-11-25,2024-12-17,743,0
+WebSirene,78,Urubu 2,-22.8766,-43.3011,True,2022-11-25,2024-12-17,736,0
+WebSirene,79,Vidigal 3 ,-22.9974,-43.2422,True,2022-11-25,2024-12-16,742,0
+WebSirene,80,Vila Cabuçu 1 / Barro Preto,-22.9147,-43.2757,True,2022-11-25,2024-12-17,727,0
+WebSirene,81,Vila Cruzeiro 1 ,-22.8522,-43.2783,True,2022-11-25,2024-12-17,741,0
+WebSirene,82,Vila José de Anchieta 1,-22.8928,-43.3432,True,2022-11-25,2024-12-17,741,0
+WebSirene,83,Vila Pereira da Silva 1,-22.9307,-43.1914,True,2022-11-25,2024-12-17,739,0

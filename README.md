@@ -155,6 +155,10 @@ O código dessas análises está nos grupos B a G de [`codigo/`](codigo/); veja 
 - O CEP vem da localização do chamado cruzada com a base de CEPs.
 - A área de 150 m não é o traçado da rede: CEPs próximos podem estar em circuitos diferentes da Light, que é quem confirma se um desligamento cobre a área toda.
 
+## Dados limpos
+
+A pasta [`dados_limpos/`](dados_limpos/) tem versões limpas dos rankings e da chuva, um registro de cada valor alterado e as regras usadas. Os arquivos de `dados/` continuam como estão. Para refazer: `python codigo/limpeza/limpar_dados.py`.
+
 ## Fonte
 
 - **Onde podar agora:** chamados de manejo arbóreo da Central 1746, set/2022 a set/2026, publicados no Data.Rio (base de dados abertos da Prefeitura do Rio). Dados até 20/09/2026. Pedidos agregados por CEP; nenhum dado pessoal é exibido.
