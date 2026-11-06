@@ -1,0 +1,284 @@
+arquivo,chave,coluna,valor_original,valor_limpo,regra
+ranking_ceps_poda.csv,20735-170,lat,-19.7507108,-22.900242,R1: coordenada fora do município; mediana de 26 CEPs 20735-xxx
+ranking_ceps_poda.csv,20735-170,lon,-40.3799016,-43.286771,R1: coordenada fora do município; mediana de 26 CEPs 20735-xxx
+ranking_ceps_poda.csv,20931-430,lat,-22.9173533,-22.878693,R1: coordenada sem bairro e a 6.1 km do prefixo; mediana de 29 CEPs 20931-xxx
+ranking_ceps_poda.csv,20931-430,lon,-43.1764586,-43.218306,R1: coordenada sem bairro e a 6.1 km do prefixo; mediana de 29 CEPs 20931-xxx
+ranking_ceps_poda.csv,20931-030,lat,-22.7340959,-22.878693,R1: coordenada sem bairro e a 31.6 km do prefixo; mediana de 29 CEPs 20931-xxx
+ranking_ceps_poda.csv,20931-030,lon,-43.4839647,-43.218306,R1: coordenada sem bairro e a 31.6 km do prefixo; mediana de 29 CEPs 20931-xxx
+ranking_ceps_poda.csv,20750-990,lat,-22.4447875,-22.876369,R1: coordenada fora do município; mediana de 24 CEPs 20750-xxx
+ranking_ceps_poda.csv,20750-990,lon,-42.9894431,-43.299165,R1: coordenada fora do município; mediana de 24 CEPs 20750-xxx
+ranking_ceps_poda.csv,21380-410,lat,-22.7110455,-22.884964,R1: coordenada fora do município; mediana de 36 CEPs 21380-xxx
+ranking_ceps_poda.csv,21380-410,lon,-43.4591344,-43.319219,R1: coordenada fora do município; mediana de 36 CEPs 21380-xxx
+ranking_ceps_poda.csv,21010-732,lat,-22.9048216,-22.825053,R1: coordenada sem bairro e a 15.2 km do prefixo; mediana de 28 CEPs 21010-xxx
+ranking_ceps_poda.csv,21010-732,lon,-43.1717269,-43.292321,R1: coordenada sem bairro e a 15.2 km do prefixo; mediana de 28 CEPs 21010-xxx
+ranking_ceps_poda.csv,21030-690,lat,-22.9046765,-22.85105,R1: coordenada sem bairro e a 9.7 km do prefixo; mediana de 17 CEPs 21030-xxx
+ranking_ceps_poda.csv,21030-690,lon,-43.1724837,-43.246799,R1: coordenada sem bairro e a 9.7 km do prefixo; mediana de 17 CEPs 21030-xxx
+ranking_ceps_poda.csv,23020-806,lat,-23.04305137072894,-22.992268,R1: coordenada sem bairro e a 7.0 km do prefixo; mediana de 44 CEPs 23020-xxx
+ranking_ceps_poda.csv,23020-806,lon,-43.51085332316603,-43.551757,R1: coordenada sem bairro e a 7.0 km do prefixo; mediana de 44 CEPs 23020-xxx
+ranking_ceps_poda.csv,22733-500,lat,-22.9043972,-22.904397,R1: coordenada sem bairro e a 18.8 km do prefixo; mediana de 17 CEPs 22733-xxx
+ranking_ceps_poda.csv,22733-500,lon,-43.1748194,-43.358079,R1: coordenada sem bairro e a 18.8 km do prefixo; mediana de 17 CEPs 22733-xxx
+ranking_ceps_poda.csv,23060-080,lat,-22.6729549,-22.899114,R1: coordenada fora do município; mediana de 30 CEPs 23060-xxx
+ranking_ceps_poda.csv,23060-080,lon,-43.2694372,-43.608054,R1: coordenada fora do município; mediana de 30 CEPs 23060-xxx
+ranking_ceps_poda.csv,22743-315,lat,-22.89341498852088,-22.928334,R1: coordenada sem bairro e a 28.1 km do prefixo; mediana de 57 CEPs 22743-xxx
+ranking_ceps_poda.csv,22743-315,lon,-43.6163277768191,-43.34506,R1: coordenada sem bairro e a 28.1 km do prefixo; mediana de 57 CEPs 22743-xxx
+ranking_ceps_poda.csv,22260-185,lat,-22.709217,-22.949219,R1: coordenada fora do município; mediana de 27 CEPs 22260-xxx
+ranking_ceps_poda.csv,22260-185,lon,-43.4591523,-43.192219,R1: coordenada fora do município; mediana de 27 CEPs 22260-xxx
+ranking_ceps_poda.csv,21730-490,bairro,,Realengo,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.34 km)
+ranking_ceps_poda.csv,21730-490,regiao_administrativa,,REALENGO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.34 km)
+ranking_ceps_poda.csv,21730-490,zona,,Oeste,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.34 km)
+ranking_ceps_poda.csv,22250-150,bairro,,Botafogo,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.18 km)
+ranking_ceps_poda.csv,22250-150,regiao_administrativa,,BOTAFOGO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.18 km)
+ranking_ceps_poda.csv,22250-150,zona,,Sul,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.18 km)
+ranking_ceps_poda.csv,20022-959,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.17 km)
+ranking_ceps_poda.csv,20022-959,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.17 km)
+ranking_ceps_poda.csv,20022-959,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.17 km)
+ranking_ceps_poda.csv,22793-790,bairro,,Barra da Tijuca,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.68 km)
+ranking_ceps_poda.csv,22793-790,regiao_administrativa,,BARRA DA TIJUCA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.68 km)
+ranking_ceps_poda.csv,22793-790,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.68 km)
+ranking_ceps_poda.csv,21011-900,bairro,,Penha Circular,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.37 km)
+ranking_ceps_poda.csv,21011-900,regiao_administrativa,,PENHA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.37 km)
+ranking_ceps_poda.csv,21011-900,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.37 km)
+ranking_ceps_poda.csv,20241-190,bairro,,Glória,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.19 km)
+ranking_ceps_poda.csv,20241-190,regiao_administrativa,,BOTAFOGO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.19 km)
+ranking_ceps_poda.csv,20241-190,zona,,Sul,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.19 km)
+ranking_ceps_poda.csv,22773-640,bairro,,Cidade de Deus,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.51 km)
+ranking_ceps_poda.csv,22773-640,regiao_administrativa,,CIDADE DE DEUS,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.51 km)
+ranking_ceps_poda.csv,22773-640,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.51 km)
+ranking_ceps_poda.csv,21011-050,bairro,,Brás de Pina,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.50 km)
+ranking_ceps_poda.csv,21011-050,regiao_administrativa,,PENHA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.50 km)
+ranking_ceps_poda.csv,21011-050,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.50 km)
+ranking_ceps_poda.csv,20091-005,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.27 km)
+ranking_ceps_poda.csv,20091-005,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.27 km)
+ranking_ceps_poda.csv,20091-005,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.27 km)
+ranking_ceps_poda.csv,20735-170,bairro,,Todos os Santos,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.06 km)
+ranking_ceps_poda.csv,20735-170,regiao_administrativa,,MEIER,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.06 km)
+ranking_ceps_poda.csv,20735-170,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.06 km)
+ranking_ceps_poda.csv,22753-375,bairro,,Itanhangá,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,22753-375,regiao_administrativa,,BARRA DA TIJUCA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,22753-375,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,22610-901,bairro,,São Conrado,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.05 km)
+ranking_ceps_poda.csv,22610-901,regiao_administrativa,,LAGOA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.05 km)
+ranking_ceps_poda.csv,22610-901,zona,,Sul,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.05 km)
+ranking_ceps_poda.csv,23575-330,bairro,,Santa Cruz,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.61 km)
+ranking_ceps_poda.csv,23575-330,regiao_administrativa,,SANTA CRUZ,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.61 km)
+ranking_ceps_poda.csv,23575-330,zona,,Oeste,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.61 km)
+ranking_ceps_poda.csv,20931-430,bairro,,Caju,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20931-430,regiao_administrativa,,PORTUARIA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20931-430,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,21011-100,bairro,,Penha Circular,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.53 km)
+ranking_ceps_poda.csv,21011-100,regiao_administrativa,,PENHA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.53 km)
+ranking_ceps_poda.csv,21011-100,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.53 km)
+ranking_ceps_poda.csv,22775-044,bairro,,Barra Olímpica,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.15 km)
+ranking_ceps_poda.csv,22775-044,regiao_administrativa,,JACAREPAGUA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.15 km)
+ranking_ceps_poda.csv,22775-044,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.15 km)
+ranking_ceps_poda.csv,20931-030,bairro,,Caju,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20931-030,regiao_administrativa,,PORTUARIA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20931-030,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20010-050,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.18 km)
+ranking_ceps_poda.csv,20010-050,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.18 km)
+ranking_ceps_poda.csv,20010-050,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.18 km)
+ranking_ceps_poda.csv,22793-905,bairro,,Barra da Tijuca,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.09 km)
+ranking_ceps_poda.csv,22793-905,regiao_administrativa,,BARRA DA TIJUCA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.09 km)
+ranking_ceps_poda.csv,22793-905,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.09 km)
+ranking_ceps_poda.csv,20031-020,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20031-020,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20031-020,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20750-990,bairro,,Pilares,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.08 km)
+ranking_ceps_poda.csv,20750-990,regiao_administrativa,,MEIER,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.08 km)
+ranking_ceps_poda.csv,20750-990,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.08 km)
+ranking_ceps_poda.csv,21380-410,bairro,,Quintino Bocaiúva,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.04 km)
+ranking_ceps_poda.csv,21380-410,regiao_administrativa,,MADUREIRA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.04 km)
+ranking_ceps_poda.csv,21380-410,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.04 km)
+ranking_ceps_poda.csv,21640-280,bairro,,Ricardo de Albuquerque,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.41 km)
+ranking_ceps_poda.csv,21640-280,regiao_administrativa,,ANCHIETA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.41 km)
+ranking_ceps_poda.csv,21640-280,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.41 km)
+ranking_ceps_poda.csv,23545-290,bairro,,Sepetiba,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.37 km)
+ranking_ceps_poda.csv,23545-290,regiao_administrativa,,SANTA CRUZ,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.37 km)
+ranking_ceps_poda.csv,23545-290,zona,,Oeste,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.37 km)
+ranking_ceps_poda.csv,20021-000,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.40 km)
+ranking_ceps_poda.csv,20021-000,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.40 km)
+ranking_ceps_poda.csv,20021-000,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.40 km)
+ranking_ceps_poda.csv,20040-010,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,20040-010,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,20040-010,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,21535-250,bairro,,Parque Colúmbia,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.33 km)
+ranking_ceps_poda.csv,21535-250,regiao_administrativa,,PAVUNA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.33 km)
+ranking_ceps_poda.csv,21535-250,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.33 km)
+ranking_ceps_poda.csv,20021-060,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.22 km)
+ranking_ceps_poda.csv,20021-060,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.22 km)
+ranking_ceps_poda.csv,20021-060,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.22 km)
+ranking_ceps_poda.csv,22793-170,bairro,,Barra da Tijuca,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.04 km)
+ranking_ceps_poda.csv,22793-170,regiao_administrativa,,BARRA DA TIJUCA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.04 km)
+ranking_ceps_poda.csv,22793-170,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.04 km)
+ranking_ceps_poda.csv,22610-002,bairro,,São Conrado,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.31 km)
+ranking_ceps_poda.csv,22610-002,regiao_administrativa,,LAGOA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.31 km)
+ranking_ceps_poda.csv,22610-002,zona,,Sul,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.31 km)
+ranking_ceps_poda.csv,21010-732,bairro,,Cordovil,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.08 km)
+ranking_ceps_poda.csv,21010-732,regiao_administrativa,,VIGARIO GERAL,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.08 km)
+ranking_ceps_poda.csv,21010-732,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.08 km)
+ranking_ceps_poda.csv,20020-000,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.21 km)
+ranking_ceps_poda.csv,20020-000,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.21 km)
+ranking_ceps_poda.csv,20020-000,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.21 km)
+ranking_ceps_poda.csv,21030-690,bairro,,Ramos,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.21 km)
+ranking_ceps_poda.csv,21030-690,regiao_administrativa,,RAMOS,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.21 km)
+ranking_ceps_poda.csv,21030-690,zona,,Norte,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.21 km)
+ranking_ceps_poda.csv,20021-901,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.52 km)
+ranking_ceps_poda.csv,20021-901,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.52 km)
+ranking_ceps_poda.csv,20021-901,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.52 km)
+ranking_ceps_poda.csv,23020-806,bairro,,Guaratiba,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.40 km)
+ranking_ceps_poda.csv,23020-806,regiao_administrativa,,GUARATIBA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.40 km)
+ranking_ceps_poda.csv,23020-806,zona,,Oeste,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.40 km)
+ranking_ceps_poda.csv,20012-959,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.17 km)
+ranking_ceps_poda.csv,20012-959,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.17 km)
+ranking_ceps_poda.csv,20012-959,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.17 km)
+ranking_ceps_poda.csv,22733-500,bairro,,Praça Seca,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.26 km)
+ranking_ceps_poda.csv,22733-500,regiao_administrativa,,JACAREPAGUA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.26 km)
+ranking_ceps_poda.csv,22733-500,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.26 km)
+ranking_ceps_poda.csv,23020-780,bairro,,Guaratiba,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.89 km)
+ranking_ceps_poda.csv,23020-780,regiao_administrativa,,GUARATIBA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.89 km)
+ranking_ceps_poda.csv,23020-780,zona,,Oeste,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.89 km)
+ranking_ceps_poda.csv,23060-080,bairro,,Cosmos,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.29 km)
+ranking_ceps_poda.csv,23060-080,regiao_administrativa,,CAMPO GRANDE,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.29 km)
+ranking_ceps_poda.csv,23060-080,zona,,Oeste,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.29 km)
+ranking_ceps_poda.csv,22793-334,bairro,,Barra da Tijuca,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.52 km)
+ranking_ceps_poda.csv,22793-334,regiao_administrativa,,BARRA DA TIJUCA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.52 km)
+ranking_ceps_poda.csv,22793-334,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.52 km)
+ranking_ceps_poda.csv,20221-901,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.16 km)
+ranking_ceps_poda.csv,20221-901,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.16 km)
+ranking_ceps_poda.csv,20221-901,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.16 km)
+ranking_ceps_poda.csv,22743-315,bairro,,Pechincha,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.05 km)
+ranking_ceps_poda.csv,22743-315,regiao_administrativa,,JACAREPAGUA,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.05 km)
+ranking_ceps_poda.csv,22743-315,zona,,Oeste (Barra/Jacarepaguá),R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.05 km)
+ranking_ceps_poda.csv,20021-330,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,20021-330,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,20021-330,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.23 km)
+ranking_ceps_poda.csv,20010-140,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.24 km)
+ranking_ceps_poda.csv,20010-140,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.24 km)
+ranking_ceps_poda.csv,20010-140,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.24 km)
+ranking_ceps_poda.csv,20271-130,bairro,,Maracanã,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.34 km)
+ranking_ceps_poda.csv,20271-130,regiao_administrativa,,VILA ISABEL,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.34 km)
+ranking_ceps_poda.csv,20271-130,zona,,Tijuca/Grande Tijuca,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.34 km)
+ranking_ceps_poda.csv,20211-351,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.39 km)
+ranking_ceps_poda.csv,20211-351,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.39 km)
+ranking_ceps_poda.csv,20211-351,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.39 km)
+ranking_ceps_poda.csv,22260-185,bairro,,Botafogo,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,22260-185,regiao_administrativa,,BOTAFOGO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,22260-185,zona,,Sul,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.11 km)
+ranking_ceps_poda.csv,20021-200,bairro,,Centro,R2: sem bairro; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.14 km)
+ranking_ceps_poda.csv,20021-200,regiao_administrativa,,CENTRO,R2: sem regiao_administrativa; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.14 km)
+ranking_ceps_poda.csv,20021-200,zona,,Centro,R2: sem zona; bairro mais comum entre os 5 CEPs mais próximos (o mais perto a 0.14 km)
+ranking_ceps_poda.csv,22451-240,zona,Sul,Tijuca/Grande Tijuca,R3: zona diferente da dos outros CEPs do mesmo bairro
+ranking_ceps_poda.csv,21060-540,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-010,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-200,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-590,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-240,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21060-280,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-050,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-600,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21060-640,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-901,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-250,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21060-550,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,21061-700,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_ceps_poda.csv,20766-760,regiao_administrativa,COMPLEXO DO ALEMÃO,COMPLEXO DO ALEMAO,"R4: nomes de região sem acento, como os demais"
+ranking_areas_150m.csv,(todas),acao_sugerida,COMLURB pode ir já,COMLURB pode ir,R5: mesmo nome usado no ranking por CEP
+ranking_areas_150m.csv,(todas),acao_sugerida,Precisa da Light,Depende da Light,R5: mesmo nome usado no ranking por CEP
+ranking_areas_150m.csv,(todas),acao_sugerida,COMLURB + Light,COMLURB + agendar Light,R5: mesmo nome usado no ranking por CEP
+ranking_areas_150m.csv,1294,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,1294,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2110,bairro,,Realengo,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2110,zona,,Oeste,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2736,bairro,,Botafogo,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2736,zona,,Sul,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2820,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2820,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2973,bairro,,Barra da Tijuca,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,2973,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3045,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3045,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3097,bairro,,Penha Circular,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3097,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3191,bairro,,Glória,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3191,zona,,Sul,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3461,bairro,,Brás de Pina,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3461,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3462,bairro,,Cidade de Deus,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3462,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3523,bairro,,Barra da Tijuca,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3523,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3645,bairro,,Barra da Tijuca,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3645,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3897,bairro,,Todos os Santos,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3897,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3897,lat,-19.7507,-22.900242,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,3897,lon,-40.3799,-43.286771,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,3970,bairro,,Itanhangá,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,3970,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4055,bairro,,Santa Cruz,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4055,zona,,Oeste,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4143,bairro,,Penha Circular,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4143,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4177,bairro,,Barra Olímpica,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4177,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4205,bairro,,Caju,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4205,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4205,lat,-22.7341,-22.878693,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4205,lon,-43.484,-43.218306,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4455,bairro,,Pilares,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4455,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4455,lat,-22.4448,-22.876369,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4455,lon,-42.9894,-43.299165,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4464,bairro,,Quintino Bocaiúva,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4464,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4464,lat,-22.711,-22.884964,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4464,lon,-43.4591,-43.319219,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4470,bairro,,Ricardo de Albuquerque,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4470,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4528,bairro,,Sepetiba,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4528,zona,,Oeste,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4536,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4536,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4552,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4552,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4610,bairro,,Parque Colúmbia,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4610,zona,,Norte,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4614,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4614,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4669,bairro,,São Conrado,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4669,zona,,Sul,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4696,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4696,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4708,bairro,,Guaratiba,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4708,zona,,Oeste,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4708,lat,-23.0431,-22.992268,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4708,lon,-43.5109,-43.551757,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4741,bairro,,Praça Seca,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4741,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4741,lat,-22.9044,-22.904397,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4741,lon,-43.1748,-43.358079,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4917,bairro,,Guaratiba,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4917,zona,,Oeste,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4990,bairro,,Cosmos,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4990,zona,,Oeste,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,4990,lat,-22.673,-22.899114,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,4990,lon,-43.2694,-43.608054,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,5020,bairro,,Barra da Tijuca,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5020,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5105,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5105,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5211,bairro,,Pechincha,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5211,zona,,Oeste (Barra/Jacarepaguá),R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5211,lat,-22.8934,-22.928334,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,5211,lon,-43.6163,-43.34506,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,5213,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5213,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5251,bairro,,Maracanã,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5251,zona,,Tijuca/Grande Tijuca,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5300,bairro,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5300,zona,,Centro,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5305,bairro,,Botafogo,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5305,zona,,Sul,R6: copiado do CEP de maior nota (limpo)
+ranking_areas_150m.csv,5305,lat,-22.7092,-22.949219,R6: área de um só CEP com coordenada corrigida em R1
+ranking_areas_150m.csv,5305,lon,-43.4592,-43.192219,R6: área de um só CEP com coordenada corrigida em R1
+clima_diario_rio_openmeteo.csv,2024-01-28,chuva_hora_max,25.0,24,R7: mais de 24 horas de chuva num dia

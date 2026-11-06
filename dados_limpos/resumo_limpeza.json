@@ -1,0 +1,66 @@
+{
+ "ranking_ceps": {
+  "linhas": 9848,
+  "coordenada_estimada": 12,
+  "sem_coordenada": 0,
+  "local_preenchido": 48,
+  "sem_zona_depois": 0,
+  "cep_suspeito": 641,
+  "cep_suspeito_no_top500": 27
+ },
+ "ranking_areas": {
+  "linhas": 5384,
+  "sem_zona_depois": 0
+ },
+ "openmeteo": {
+  "linhas": 1512
+ },
+ "chuva_estacoes": {
+  "linhas": 90375,
+  "por_rede": [
+   {
+    "rede": "Alerta Rio",
+    "linhas": 26470,
+    "dia_completo": 0.898,
+    "suspeitos": 13,
+    "usar_total_dia": 23662
+   },
+   {
+    "rede": "Cemaden",
+    "linhas": 2687,
+    "dia_completo": 0.557,
+    "suspeitos": 0,
+    "usar_total_dia": 0
+   },
+   {
+    "rede": "INEA",
+    "linhas": 117,
+    "dia_completo": 0.889,
+    "suspeitos": 0,
+    "usar_total_dia": 102
+   },
+   {
+    "rede": "WebSirene",
+    "linhas": 61101,
+    "dia_completo": 0.54,
+    "suspeitos": 16,
+    "usar_total_dia": 0
+   }
+  ],
+  "motivos": {
+   "leitura travada em 60 mm": 9,
+   "mais de 300 mm no dia": 6,
+   "mais de 300 mm no dia; mais de 200 mm em 1 h; mais de 100 mm em 15 min": 6,
+   "mais de 200 mm em 1 h; leitura travada em 60 mm": 4,
+   "mais de 300 mm no dia; mais de 100 mm em 15 min": 1,
+   "mais de 200 mm em 1 h": 1,
+   "mais de 300 mm no dia; mais de 200 mm em 1 h; leitura travada em 60 mm": 1,
+   "mais de 300 mm no dia; mais de 200 mm em 1 h": 1
+  }
+ },
+ "estacoes": {
+  "linhas": 154,
+  "coordenada_invalida": 5
+ },
+ "alteracoes_registradas": 283
+}
